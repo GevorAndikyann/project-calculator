@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Калькулятор</h1><br><br><br>
+
+    <div id="board">
+        <div class="item input">
+            <form name="form">
+                <input type="text" name="textveiw" readonly>
+            </form>
+        </div>
+        <button class="item clear" onclick=" clearFunc()">AC</button>
+        <button class="item back" onclick=" backFunc()">&larr;</button>
+        <!-- <div class="item" onclick="insertFunc('+')">+</div> -->
+        <button class="item" onclick="insertFunc('+')">+</button>
+        <button class="item" onclick="insertFunc('-')">-</button>
+        <button class="item" onclick="insertFunc('*')">X</button>
+        <button class="item" onclick="insertFunc('/')">/</button>
+        <button class="item" onclick="insertFunc('7')">7</button>
+        <button class="item" onclick="insertFunc('8')">8</button>
+        <button class="item" onclick="insertFunc('9')">9</button>
+        <button class="item" onclick="insertFunc('(')">(</button>
+        <button class="item" onclick="insertFunc('4')">4</button>
+        <button class="item" onclick="insertFunc('5')">5</button>
+        <button class="item" onclick="insertFunc('6')">6</button>
+        <button class="item" onclick="insertFunc(')')">)</button>
+        <button class="item" onclick="insertFunc('1')">1</button>
+        <button class="item" onclick="insertFunc('2')">2</button>
+        <button class="item" onclick="insertFunc('3')">3</button>
+        <button class="item equal" onclick="equalFunc()">=</button>
+        <button class="item null" onclick="insertFunc('0')">0</button>
+        <button class="item" onclick="insertFunc('.')">.</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

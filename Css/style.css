@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 220, 33);
+    user-select: none;
+    text-align: center;
+}
+#board {
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 4px;
+    background-color: rgb(49, 49, 49);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item {
+    background-color: orange;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form {
+    max-width: 100%;
+}
+input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 30px;
+    outline: none;
+    text-align: right;
+}
+.input {
+    grid-column: 1/-1;
+    padding:0;
+}
+.clear {
+    grid-column: 1/3;
+    background-color: orangered;
+}
+.back {
+    grid-column: 3/-1;
+    background-color: rgb(122, 122, 122);
+}
+.equal {
+    grid-column: 4;
+    grid-row: 6/8;
+    background-color: orangered;
+
+}
+.null {
+    grid-column: 1/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #counterBoard {
+    display: flex;
+    width: 300px;
+    height: 370px;
+    background-color: #a8a7a7;
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.NumBtn { 
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.numLine {
+    display: inline-flex;
+    width: 300px;
+    height: 30px;
+    border: 2px solid;
+    background-color: #a8a7a7;
+    margin-left:38%;
+    margin-top: 10%;
+    clear: both;
+}
+#answerBtn {
+    width: 100px;
+    height: 30px;
+    border: 2px solid;
+    background-color: orange;
+    font-weight: bold;
+} */
